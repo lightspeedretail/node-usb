@@ -1,7 +1,7 @@
 {
   "name": "usb",
   "description": "Library to access USB devices",
-  "version": "1.6.3-1",
+  "version": "1.6.3-2",
   "engines": {
     "node": ">=6"
   },
@@ -37,12 +37,12 @@
     "valgrind": "coffee -c test/usb.coffee; valgrind --leak-check=full --show-possibly-lost=no node --expose-gc --trace-gc node_modules/mocha/bin/_mocha -R spec"
   },
   "dependencies": {
-    "bindings": "^1.4.0",
-    "nan": "2.13.2",
-    "prebuild-install": "^5.3.5"
+    "bindings": "^1.5.0",
+    "nan": "^2.14.2",
+    "prebuild-install": "^6.1.3"
   },
   "resolutions": {
-    "**/nan": "2.13.2"
+    "**/nan": "2.14.2"
   },
   "devDependencies": {
     "coffeescript": "~2.4.1",
